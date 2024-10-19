@@ -1,0 +1,6 @@
+sleep/false/daily/2024-10-18T17:43:39.760867+00:00/0
+go to gym/true/daily/2024-10-19T00:53:28.334907+00:00/1
+eat fruits/false/daily/2024-10-18T17:44:07.798869+00:00/0
+go to temple/false/daily/2024-10-18T17:44:14.334195+00:00/0
+my weekly task/false/weekly/2024-10-19T00:51:14.233893+00:00/0
+my monthly task/false/monthly/2024-10-19T00:51:24.898983+00:00/0
