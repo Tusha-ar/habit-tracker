@@ -7,8 +7,7 @@ fn main() {
         println!("Welcome to habit tracker.....");
         println!("1. Add a new habit");
         println!("2. Mark a habit as complete");
-        println!("3. Show complete progress");
-        println!("4. List all the habits");
+        println!("3. List all the habits");
         println!("exit => to exit the program");
         println!("\nInput: ");
         let mut input = String::new();
@@ -80,19 +79,8 @@ fn main() {
                 if input == "\n" {
                     continue;
                 }
-            }
+            },
             3 => {
-                Habit::track_progress();
-                println!("\nPress Enter to continue.");
-                let mut input = String::new();
-                std::io::stdin()
-                    .read_line(&mut input)
-                    .expect("Invalid Input");
-                if input == "\n" {
-                    continue;
-                }
-            }
-            4 => {
                 Habit::list_all();
                 println!("\nPress Enter to continue.");
                 let mut input = String::new();

@@ -6,6 +6,7 @@ use chrono::{DateTime, Datelike, Duration, Utc, Weekday};
 
 const FILE_NAME: &str = "habit.txt";
 
+#[derive(PartialEq)]
 pub enum HabitFrequency {
     Daily,
     Weekly,
@@ -70,10 +71,6 @@ impl Habit {
 
     pub fn list_all() {
         list_file(String::from(FILE_NAME));
-    }
-
-    pub fn track_progress() {
-        println!("TODO");
     }
 
     pub fn init() {
